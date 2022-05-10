@@ -1,0 +1,564 @@
+/**/
+/*HUVUDSIDAN*/
+
+*{
+   transition: 0.30s;
+}
+
+
+
+
+/*HUVUDCONTENT- bilder och text*/
+
+
+.sliderp{
+  width: 50%;
+}
+#introduction{
+  background-color:#dbc0a2;
+  color: #2c1810;
+  padding: 10%;
+  font-size: 110%;
+  font-family:  'Libre Baskerville', serif
+}
+
+.currentback {
+  background-color:#dbc0a2;
+  z-index: -1;
+}
+.currentitle{
+  font-size: 500%;
+  font-family: 'Volkhov', serif;
+  color: white;
+}
+#curent {
+  color: #2c1810;
+  padding: 10%;
+  font-size: 110%;
+  font-family:  'Libre Baskerville', serif
+}
+.starrating{
+font-size: 300%;
+padding-left: 10%;
+}
+
+/*Filter över bakgrundsbilden*/
+.pagetext{
+  background-color: #b88c6a;
+  opacity: 50%;
+  z-index: -1;
+    position:relative;
+      margin-bottom: -8%;
+}
+
+
+
+
+
+/*Vita bakrunden till huvudsidan*/
+#bookquote{
+   color: rgb(247, 239, 230);
+   text-align: inherit;
+     opacity: 80%;
+       position:relative;
+    teaxt-align: left;
+    text-align-last: left;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+
+*p  {
+  color:#2c1810;
+}
+
+
+#welcomerubrik {
+  font-size: 4em;
+  color: white;
+  padding-left: 5%;
+  font-family: 'DM Serif Display', serif;
+}
+
+header {
+  padding: -3%;
+}
+
+
+
+
+
+
+
+/*TOPPNAVET, home, etc.*/
+.topnav {
+  overflow: hidden;
+
+
+}
+
+.topnav a {
+  float: left;
+  color: #2c1810;
+  text-align: center;
+  padding: 0.975%;
+  text-decoration: none;
+  font-size: 1.43em;
+   font-family: 'Libre Baskerville', serif;
+   background-color:#f9f2ec;
+   transition: 0.3s;
+}
+
+
+
+/*OMBRE,en ombre effekt på toppnavet*/
+.topnav a.active {
+  background-color: #d0b994;
+  color: #2c1810;
+}
+
+.topnav a:nth-child(2) {
+   background-color:#e4cfad;
+}
+.topnav a:nth-child(3) {
+   background-color:#e8dcc9;
+}
+.topnav a:nth-child(4) {
+   background-color:#eee3d7;
+}
+.topnav a:nth-child(4) {
+   background-color:#eee3d7;
+}
+.topnav a.active:hover , .topnav a:nth-child(2):hover , .topnav a:nth-child(3):hover , .topnav a:nth-child(4):hover , .topnav a:nth-child(5):hover  {
+ filter: sepia(20%);
+
+}
+
+
+
+
+/*STICKY, för toppnavet eller annat*/
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/*Star rating färg*/
+.checked {
+  color: orange;
+}
+
+/*FONTS
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Gravitas One', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Kavivanar', cursive;
+font-family: 'Libre Barcode 39 Extended Text', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Ramaraja', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Volkhov', serif;  */
+
+
+/*Sidemenu*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:#d0ba97;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #2c1810;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Lora', serif;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+
+/*Footer*/
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#e8dac3;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+/*header*/
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #e8dac3;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/*loggan, bookread*/
+.header a.logo {
+  font-size: 170%;
+  font-weight: bold;
+  font-family: 'DM Serif Display', serif;
+  color: #2c1810;
+}
+
+
+.header a.active {
+  background-color: #e8dac3;
+  color: #2c1810;
+}
+
+.header-right {
+  float: right;
+}
+
+
+
+
+
+/*HUVUDSIDAN SLUT*/
+
+/*ANDRASIDAN (samma som första fast med ändringar i content och stil)*/
+#blankpage2{
+  background-color: rgb(251, 237, 222);
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    margin: -5%;
+   text-align: inherit;
+     opacity: 99%;
+     z-index: -1;
+       position:relative;
+}
+
+#recommendationtitle {
+    font-family: 'DM Serif Display', serif;
+    color: white;
+    font-size: 4em;
+}
+
+.pagetext2{
+  background-color: #b18f72;
+  opacity: 40%;
+  z-index: -1;
+    position:relative;
+      margin-bottom: -8%;
+}
+
+
+
+
+
+/*ANDRASIDAN SLUT*/
+
+
+
+
+
+
+
+
+
+/* DARK MODE*/
+#darkmodebutton {
+  background-color:#856c5b;
+  color: white;
+  opacity: 50%;
+  font-family: 'Libre Baskerville', serif;
+  border-style: none;
+  style: none;
+}
+#darkmodebutton:hover{
+  background-color:rgb(0, 0, 0);
+}
+.dark-mode .pagetext{
+  background-color: #170b01;
+  color: white;
+
+}
+.dark-mode .topnav *a{
+  background-color: #201a19;
+  color: white;
+}
+.dark-mode .topnav a:nth-child(1){
+  background-color: black;
+  color: white;
+
+}
+.dark-mode .topnav a:nth-child(2){
+  background-color: black;
+  color: white;
+
+}.dark-mode .topnav a:nth-child(3){
+  background-color: black;
+  color: white;
+
+}.dark-mode .topnav a:nth-child(4){
+  background-color: black;
+  color: white;
+
+}
+.dark-mode .topnav a:nth-child(5){
+  background-color: black;
+  color: white;
+
+}
+.dark-mode #blankpage {
+  background-color: #201a19;
+  color: white;
+
+}
+
+.dark-mode #blankpage2{
+  background-color: #201a19;
+  color: white;
+
+}
+.dark-mode .pagetext2{
+  background-color: #201a19;
+  color: white;
+
+}
+
+.darkmode .active{
+  background-color: #201a19;
+  color: white;
+}
+
+.dark-mode #fonttest {
+
+  color: white;
+
+}
+.dark-mode a.logo {
+
+  color: white;
+}
+
+.dark-mode .header{
+  background-color: black;
+
+}
+ .dark-mode .header a.logo {
+   color: white;
+ }
+
+/* end DARK MODE */
+
+.dark-mode .sidenav {
+  background-color: rgb(136, 110, 83)black;
+}
+
+
+
+
+
+
+.containerslider {
+  position: relative;
+  height: 120%;
+  width: 300%;
+  overflow: hidden;
+}
+
+.slides-wrapper {
+   position: absolute;
+   display: flex;
+   height: 100%;
+   width: 300%;
+   left: -200%;
+   animation: slides 20s ease-out infinite;
+}
+
+.slides-wrapper:hover {
+  animation-play-state: paused;
+}
+
+.text {
+  display: grid;
+  place-content: center;
+}
+
+.text p {
+  margin: 5rem 7rem;
+  padding: 2rem 0rem;
+}
+
+
+
+@keyframes slides {
+  0% {
+    left: 0%;
+  }
+
+  16.6% {
+    left: 0%;
+  }
+
+  33% {
+    left: -100%;
+  }
+
+  50% {
+    left: -100%;
+  }
+
+  66.6% {
+    left: -200%;
+  }
+
+  83% {
+    left: -200%;
+  }
+
+  100% {
+    left: 0;
+  }
+
+}
+
+@keyframes selected-ball {
+  0% {
+    left: 0.45rem;
+  }
+
+  16.6% {
+    left: 0.45rem;
+  }
+
+  25% {
+    left: 50%;
+  }
+
+  50% {
+    left: 50%;
+  }
+
+  60.6% {
+    left: calc(100% - 0.45rem);
+  }
+
+  83% {
+    left: calc(100% - 0.45rem);
+  }
+
+  93% {
+    left: 0.45rem;
+  }
+}
+
+
+
+
+
+/*MEDIA SCREEN*/
+@media screen and (max-width: 800px) {
+
+
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+  .sidenav {
+    padding-top: 15px;}
+  .sidenav a {
+    font-size: 18px;}
+
+  #welcomerubrik , #recommendationtitle {
+    font-size: 1.7em;
+    font-family: 'DM Serif Display', serif;
+
+  }
+
+.visibilitygone{
+  visibility: collapse;
+}
+
+.topnav a:nth-child(5) {
+  visibility: collapse;
+}
+
+/*Första sidan content*/
+
+.containerslider {
+  visibility: hidden;
+  opacity:0%;
+}
+#introduction{
+  font-size: 80%;
+}
+.currentitle{
+  font-size: 200%;
+}
+.starrating{
+  font-size: 100%;
+}
+#curent{
+font-size: 70%;
+}
+
+/*Andra sidan content*/
+
+
+/*Tredje sidan content*/
+
+
+/*Fjärde sidan content*/
+
+
+}
+/*MEDIA SCREEN SLUT*/
