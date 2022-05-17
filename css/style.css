@@ -6,8 +6,6 @@
 }
 
 
-
-
 /*HUVUDCONTENT första sida*/
 
 
@@ -23,6 +21,7 @@
 }
 .current{
   width: 100%;
+  box-shadow: 1em 1em rgb(32, 21, 0);
 }
 .currentback {
   background-color:#dbc0a2;
@@ -48,6 +47,7 @@ padding-left: 10%;
 margin-bottom: 10%;
 width: 85%;
 }
+
 #monthsread4{
 margin-bottom: 10%;
 width: 90%;
@@ -58,7 +58,7 @@ width: 90%;
 
 /*Filter över bakgrundsbilden*/
 .pagetext{
-  background-color: #b88c6a;
+  background-color: #dea980;
   opacity: 50%;
   z-index: -1;
     position:relative;
@@ -167,24 +167,6 @@ header {
   color: rgb(255, 219, 113);
 }
 
-/*FONTS
-font-family: 'Averia Serif Libre', cursive;
-font-family: 'DM Serif Display', serif;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Gravitas One', cursive;
-font-family: 'Homemade Apple', cursive;
-font-family: 'Kavivanar', cursive;
-font-family: 'Libre Barcode 39 Extended Text', cursive;
-font-family: 'Nanum Pen Script', cursive;
-font-family: 'Shrikhand', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Lora', serif;
-font-family: 'Playfair Display SC', serif;
-font-family: 'Ramaraja', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Volkhov', serif;  */
-
 
 /*Sidemenu*/
 .sidenav {
@@ -288,7 +270,7 @@ body {
 
 /*ANDRASIDAN (samma som första fast med ändringar i content och stil)*/
 #blankpage2{
-  background-color: rgb(251, 237, 222);
+  background-color: #dfc6aa;
     font-family: 'Lora', serif;
     font-size: 1.3em;
     margin: -5%;
@@ -312,9 +294,19 @@ body {
       margin-bottom: -8%;
 }
 
-
-
-
+/*content*/
+.number{
+  font-family: 'Volkhov', serif;
+  font-size: 400%;
+  padding-top: 200%;
+}
+#firstbook{
+  width: 100%;
+  box-shadow: 1.5em 1.5em rgb(32, 21, 0);
+}
+.firstbookp{
+  font-family: 'Libre Baskerville', serif;
+}
 
 /*ANDRASIDAN SLUT*/
 
@@ -513,6 +505,24 @@ body {
     left: 0.45rem;
   }
 }
+
+/*FONTS
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Gravitas One', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Kavivanar', cursive;
+font-family: 'Libre Barcode 39 Extended Text', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Ramaraja', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Volkhov', serif;  */
 
 
 
