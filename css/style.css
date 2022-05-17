@@ -8,7 +8,7 @@
 
 
 
-/*HUVUDCONTENT- bilder och text*/
+/*HUVUDCONTENT första sida*/
 
 
 .sliderp{
@@ -21,7 +21,9 @@
   font-size: 110%;
   font-family:  'Libre Baskerville', serif
 }
-
+.current{
+  width: 100%;
+}
 .currentback {
   background-color:#dbc0a2;
   z-index: -1;
@@ -42,6 +44,18 @@ font-size: 300%;
 padding-left: 10%;
 }
 
+#monthsread1 , #monthsread2 , #monthsread3 {
+margin-bottom: 10%;
+width: 85%;
+}
+#monthsread4{
+margin-bottom: 10%;
+width: 90%;
+}
+
+
+
+
 /*Filter över bakgrundsbilden*/
 .pagetext{
   background-color: #b88c6a;
@@ -50,6 +64,10 @@ padding-left: 10%;
     position:relative;
       margin-bottom: -8%;
 }
+
+
+
+
 
 
 
@@ -146,7 +164,7 @@ header {
 
 /*Star rating färg*/
 .checked {
-  color: orange;
+  color: rgb(255, 219, 113);
 }
 
 /*FONTS
