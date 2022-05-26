@@ -666,6 +666,7 @@ font-family: 'Volkhov', serif;  */
 }
 #curent{
 font-weight: bold;
+font-size: 70%;
 }
 
 .starrating{
@@ -700,6 +701,7 @@ font-weight: bold;
 }
 
 /*1*/
+
 
 .ratingone{
   font-size: 100%;
