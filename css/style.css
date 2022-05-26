@@ -352,8 +352,7 @@ font-family: 'Averia Serif Libre', cursive;
 .goodreads{
   font-family: 'Fredericka the Great', cursive;
   font-size: 140%;
-  color: rgb(42, 60, 96);
-  text-decoration: none;
+  color: rgb(0, 62, 185);
 }
 
 .goodreads:hover{
@@ -373,24 +372,6 @@ font-family: 'Averia Serif Libre', cursive;
       margin-bottom: -8%;
 }
 
-/*FONTS
-font-family: 'Averia Serif Libre', cursive;
-font-family: 'DM Serif Display', serif;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Gravitas One', cursive;
-font-family: 'Homemade Apple', cursive;
-font-family: 'Kavivanar', cursive;
-font-family: 'Libre Barcode 39 Extended Text', cursive;
-font-family: 'Nanum Pen Script', cursive;
-font-family: 'Shrikhand', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Lora', serif;
-font-family: 'Playfair Display SC', serif;
-font-family: 'Ramaraja', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Volkhov', serif;  */
-
 
 
 
@@ -398,7 +379,6 @@ font-family: 'Volkhov', serif;  */
 #darkmodebutton {
   background-color:#856c5b;
   color: white;
-  opacity: 70%;
   font-family: 'Libre Baskerville', serif;
   border-style: none;
   font-size: 1.2em;
@@ -436,7 +416,7 @@ font-family: 'Volkhov', serif;  */
   color: white;
 }
 .dark-mode .goodreads {
-  color: rgb(58, 90, 201);
+  color: rgb(143, 168, 255);
 }
 .dark-mode .currentback{
   background-color: #170b01;
@@ -612,7 +592,6 @@ font-family: 'Volkhov', serif;  */
 
 /*MEDIA SCREEN*/
 @media screen and (max-width: 800px) {
-
 
   .header a {
     float: none;
