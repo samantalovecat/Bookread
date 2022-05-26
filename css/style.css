@@ -741,5 +741,11 @@ table, th, td {
   border-collapse: collapse;
 }
 
+
+.shadowbox{
+  width: 100%;
+  box-shadow: 0.5em 0.5em rgb(32, 21, 0);
+}
+
 }
 /*MEDIA SCREEN SLUT*/
