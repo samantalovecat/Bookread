@@ -179,6 +179,9 @@ width: 85%;
   font-family: 'DM Serif Display', serif;
 }
 
+#h1{
+  visibility: collapse;
+}
 
 /*Star rating färg*/
 .checked {
@@ -506,6 +509,10 @@ font-family: 'Volkhov', serif;  */
 }
 
 .dark-mode .header{
+  background-color: black;
+
+}
+.dark-mode .footer2{
   background-color: black;
 
 }
