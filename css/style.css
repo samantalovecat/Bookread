@@ -113,7 +113,7 @@ width: 85%;
    text-align: inherit;
      opacity: 80%;
        position:relative;
-    teaxt-align: left;
+    text-align: left;
     text-align-last: left;
     font-family: 'Libre Baskerville', serif;
 
@@ -121,9 +121,7 @@ width: 85%;
 *p  {
   color:#2c1810;
 }
-header {
-  padding: -3%;
-}
+
 /*TOPPNAVET, home, etc.*/
 .topnav {
   overflow: hidden;
@@ -352,13 +350,11 @@ font-family: 'Averia Serif Libre', cursive;
   font-family: 'Fredericka the Great', cursive;
   font-size: 140%;
   color: rgb(42, 60, 96);
-  font-style: none;
   text-decoration: none;
 }
 
 .goodreads:hover{
   color: white;
-  font-decoration: none;
 }
 
 /*ANDRASIDAN SLUT*/
@@ -402,7 +398,6 @@ font-family: 'Volkhov', serif;  */
   opacity: 70%;
   font-family: 'Libre Baskerville', serif;
   border-style: none;
-  style: none;
   font-size: 1.2em;
 }
 #darkmodebutton:hover{
@@ -517,13 +512,6 @@ font-family: 'Volkhov', serif;  */
  .dark-mode .header a.logo {
    color: white;
  }
-
-
-.dark-mode .sidenav {
-  background-color: rgb(136, 110, 83)black;
-}
-
-
 
 
 
