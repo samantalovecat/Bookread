@@ -10,7 +10,7 @@
 /*HUVUDSIDAN*/
 .pagetext{
   grid-column: 1/-1;
-  grid-row: 1/50;
+  grid-row: 1/30;
 }
 
 
@@ -20,11 +20,6 @@
   grid-row: 3/4;
 }
 
-
-#fonttest {
-  grid-column: 2/10;
-  grid-row: 30/40;
-}
 .header{
   grid-column: 1/-1;
   grid-row: 1/2;
@@ -32,9 +27,10 @@
 }
 .footer{
   grid-column: 1/-1;
-  grid-row: 51/52;
+  grid-row: 31/32;
 
 }
+
 .topnav{
   grid-column: 1/-1;
   grid-row: 2/3;
@@ -44,15 +40,11 @@
 
 .sliderp {
   grid-column: 7/11;
-  grid-row: 3/4;
+  grid-row: 3/5;
 }
 
 #introduction{
   grid-column: 2/6;
-  grid-row: 4/5;
-}
-#girlbook{
-  grid-column: 6/10;
   grid-row: 4/5;
 }
 
@@ -96,227 +88,55 @@
 }
 
 
+/*TABLES*/
+.otherreads{
+  grid-column: 6/9;
+  grid-row: 14/15;
+}
+
+#fantasy{
+  grid-column: 2/7;
+  grid-row: 15/17;
+}
+.fantasy{
+  grid-column: 2/12;
+  grid-row: 16/18;
+}
+
+#mystery{
+  grid-column: 2/7;
+  grid-row: 19/21;
+}
+.mystery{
+  grid-column: 2/12;
+  grid-row: 20/22;
+}
+
+#romance{
+  grid-column: 2/4;
+  grid-row: 23/25;
+}
+.romance{
+  grid-column: 2/12;
+  grid-row: 24/26;
+}
+#classic{
+  grid-column: 2/4;
+  grid-row: 27/28;
+}
+.classic{
+  grid-column: 2/12;
+  grid-row: 27/31;
+}
 
 
 
 
 
 /*ANDRASIDAN*/
-
-
-
-
 #blankpage2 {
   grid-column: 2/12;
-  grid-row: 5/50;
-  .container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(80px, auto);
-    width: 100%;
-  }
-
-
-
-  /*HUVUDSIDAN*/
-  .pagetext{
-    grid-column: 1/-1;
-    grid-row: 1/50;
-  }
-
-
-
-  #welcomerubrik {
-    grid-column: 1/11;
-    grid-row: 3/4;
-  }
-
-
-  #fonttest {
-    grid-column: 2/10;
-    grid-row: 30/40;
-  }
-  .header{
-    grid-column: 1/-1;
-    grid-row: 1/2;
-
-  }
-  .footer{
-    grid-column: 1/-1;
-    grid-row: 51/52;
-
-  }
-  .topnav{
-    grid-column: 1/-1;
-    grid-row: 2/3;
-  }
-
-  /*content*/
-
-  .sliderp {
-    grid-column: 7/11;
-    grid-row: 3/4;
-  }
-
-  #introduction{
-    grid-column: 2/6;
-    grid-row: 4/5;
-  }
-  #girlbook{
-    grid-column: 6/10;
-    grid-row: 4/5;
-  }
-
-
-  .current{
-    grid-column: 8/10;
-    grid-row: 8/11;
-  }
-  .currentback{
-    grid-column: 2/12;
-    grid-row: 7/13;
-  }
-  .currentitle{
-    grid-column: 2/12;
-    grid-row: 6/8;
-  }
-  #curent{
-    grid-column: 3/8;
-    grid-row: 7/10;
-  }
-  .starrating{
-    grid-column: 3/8;
-    grid-row: 10/11;
-  }
-  #monthsread1{
-    grid-column: 3/5;
-    grid-row: 12/13;
-  }
-
-  #monthsread2{
-    grid-column: 5/7;
-    grid-row: 12/13;
-  }
-  #monthsread3{
-    grid-column: 7/9;
-    grid-row: 12/13;
-  }
-  #monthsread4{
-    grid-column: 9/11;
-    grid-row: 12/13;
-  }
-
-
-
-
-
-
-
-  /*ANDRASIDAN*/
-
-
-
-
-  #blankpage2 {
-    grid-column: 2/12;
-    grid-row: 5/50;
-
-  }
-  #recommendationtitle {
-    grid-column: 2/10;
-    grid-row: 3/4;
-  }
-
-  .pagetext2{
-    grid-column: 1/-1;
-    grid-row: 1/50;
-  }
-
-  /*content*/
-  #first{
-    grid-column: 2/3;
-    grid-row: 6/8;
-  }
-  #firstbook{
-    grid-column: 3/5;
-    grid-row: 7/9;
-  }
-  .firstbookp{
-    grid-column: 6/10;
-    grid-row: 7/9;
-  }
-  #second{
-    grid-column: 2/3;
-    grid-row: 9/11;
-  }
-  #third{
-    grid-column: 2/3;
-    grid-row: 11/13;
-  }
-  #fourth{
-    grid-column: 2/3;
-    grid-row: 13/15;
-  }
-  /*TREDJESIDAN*/
-
-
-
-
-
-
-
-
-
-
-
-  /*MEDIA SCREEN*/
-
-  @media screen and (max-width: 800px) {
-
-
-    #welcomerubrik {
-      grid-column: 1/11;
-      grid-row: 3/4;
-    }
-
-
-    #blankpage , #blankpage2 {
-      grid-column: 2/10;
-      grid-row: 3/50;
-
-    }
-    /*Första sidan content*/
-
-  #introduction{
-    grid-column: 2/11;
-    grid-row: 4/5;
-  }
-  #girlbook{
-    grid-column: 2/8;
-    grid-row: 5/6;
-  }
-  .currentback{
-    grid-column: 2/12;
-    grid-row: 7/10;
-  }
-  .current{
-    grid-column: 9/11;
-    grid-row: 7/10;
-  }
-  .currentitle{
-    grid-column: 2/12;
-    grid-row: 6/8;
-  }
-  #curent{
-    grid-column: 2/9;
-    grid-row: 7/9;
-  }
-  .starrating{
-    grid-column: 6/12;
-    grid-row: 9/11;
-  }
-
-  }
+  grid-row: 5/41;
 
 }
 #recommendationtitle {
@@ -326,17 +146,200 @@
 
 .pagetext2{
   grid-column: 1/-1;
-  grid-row: 1/50;
+  grid-row: 1/41;
 }
+
+/*content*/
+.introduction2{
+  grid-column: 2/9;
+  grid-row: 5/7;
+}
+
+/*1*/
+#first{
+  grid-column: 2/3;
+  grid-row: 6/8;
+}
+#firstbook{
+  grid-column: 3/5;
+  grid-row: 7/9;
+}
+.firstbookp{
+  grid-column: 6/10;
+  grid-row: 7/9;
+}
+.ratingone{
+  grid-column: 6/10;
+  grid-row: 8/10;
+}
+.specs1{
+  grid-column: 8/10;
+  grid-row: 8/10;
+}
+#authorone{
+  grid-column: 10/12;
+  grid-row: 7/10;
+}
+
+/*2*/
+#second{
+  grid-column: 2/3;
+  grid-row: 9/11;
+}
+#secondbook{
+  grid-column: 3/5;
+grid-row: 10/12;
+}
+.secondbookp{
+  grid-column: 6/10;
+  grid-row: 10/12;
+}
+.ratingtwo{
+  grid-column: 6/10;
+  grid-row: 11/13;
+}
+#authortwo{
+  grid-column: 10/12;
+  grid-row: 10/13;
+}
+.specs2{
+  grid-column: 8/10;
+  grid-row: 11/13;
+}
+/*3*/
+#third{
+  grid-column: 2/3;
+  grid-row: 12/14;
+}
+#thirdbook{
+  grid-column: 3/5;
+grid-row: 13/15;
+}
+.thirdbookp{
+  grid-column: 6/10;
+  grid-row: 13/15;
+}
+.ratingthree{
+  grid-column: 6/10;
+  grid-row: 14/17;
+}
+#authorthree{
+  grid-column: 10/12;
+  grid-row: 13/16;
+}
+.specs3{
+  grid-column: 8/10;
+  grid-row: 14/17;
+}
+/*4*/
+#fourth{
+  grid-column: 2/3;
+  grid-row: 15/17;
+}
+#fourthbook{
+  grid-column: 3/5;
+grid-row: 16/18;
+}
+.fourthbookp{
+  grid-column: 6/10;
+  grid-row: 16/18;
+}
+.ratingfour{
+  grid-column: 6/10;
+  grid-row: 17/20;
+}
+
+#authorfour{
+  grid-column: 10/12;
+  grid-row: 16/19;
+}
+.specs4{
+  grid-column: 8/10;
+  grid-row: 17/20;
+}
+/*5*/
+#fifth{
+  grid-column: 2/3;
+  grid-row: 18/20;
+}
+#fifthbook{
+  grid-column: 3/5;
+grid-row: 19/21;
+}
+.fifthbookp{
+  grid-column: 6/10;
+  grid-row: 19/21;
+}
+.ratingfive{
+  grid-column: 6/10;
+  grid-row: 20/23;
+}
+#authorfive{
+  grid-column: 10/12;
+  grid-row: 19/22;
+}
+.specs5{
+  grid-column: 8/10;
+  grid-row: 20/23;
+}
+
+#otherreads2{
+  grid-column: 6/8;
+  grid-row: 23/24;
+}
+
+.fantasy2{
+  grid-column: 4/10;
+  grid-row: 25/29;
+}
+
+.mystery2{
+  grid-column: 4/10;
+  grid-row: 29/33;
+}
+
+.romance2{
+  grid-column: 4/10;
+  grid-row: 33/37;
+}
+
+.classics2{
+  grid-column: 4/10;
+  grid-row: 37/41;
+}
+
+
+.footer3{
+  grid-column: 1/-1;
+  grid-row: 41/43;
+
+}
+
+
+
+
+
 
 
 
 
 /*TREDJESIDAN*/
 
+.pagetext3{
+  grid-column: 1/-1;
+  grid-row: 1/22;
+}
+#blankpage3 {
+  grid-column: 2/12;
+  grid-row: 5/23;
 
+}
 
+.footer2{
+  grid-column: 1/-1;
+  grid-row: 23/24;
 
+}
 
 
 
@@ -355,9 +358,9 @@
   }
 
 
-  #blankpage , #blankpage2 {
+   #blankpage2 , #blankpage3 {
     grid-column: 2/10;
-    grid-row: 3/50;
+    grid-row: 3/20;
 
   }
   /*Första sidan content*/
@@ -390,5 +393,259 @@
   grid-column: 6/12;
   grid-row: 9/11;
 }
+
+
+
+.current{
+  grid-column: 8/12;
+  grid-row: 7/9;
+}
+.currentback{
+  grid-column: 2/12;
+  grid-row: 7/11;
+}
+.starrating{
+  grid-column: 2/7;
+  grid-row: 7/8;
+}
+
+#monthsread1{
+  grid-column: 3/8;
+  grid-row: 9/10;
+}
+#monthsread2{
+  grid-column: 7/12;
+  grid-row: 9/10;
+}
+#monthsread3{
+  grid-column: 3/8;
+  grid-row: 10/11;
+}
+#monthsread4{
+  grid-column: 7/12;
+  grid-row: 10/11;
+}
+
+
+.otherreads{
+  grid-column: 3/12;
+  grid-row: 11/12;
+}
+
+#fantasy{
+  grid-column: 2/12;
+  grid-row: 12/13;
+}
+.fantasy{
+  grid-column: 1/13;
+  grid-row: 13/14;
+}
+.smolimage{
+  width:100%;
+}
+#mystery{
+  grid-column: 2/12;
+  grid-row: 14/15;
+}
+.mystery{
+  grid-column: 1/13;
+  grid-row: 15/16;
+}
+
+#romance{
+  grid-column: 2/12;
+  grid-row: 16/17;
+}
+.romance{
+  grid-column: 1/13;
+  grid-row: 17/18;
+}
+#classic{
+  grid-column: 2/12;
+  grid-row: 18/19;
+}
+.classic{
+  grid-column: 1/13;
+  grid-row: 19/20;
+}
+.pagetext{
+  grid-column: 1/-1;
+  grid-row: 1/21;
+}
+.footer{
+  grid-column: 1/-1;
+  grid-row: 21/22;
+}
+
+/*Andra sidan content*/
+
+#blankpage2 {
+  grid-column: 2/12;
+  grid-row: 3/35;
+}
+.pagetext2{
+  grid-column: 1/-1;
+  grid-row: 1/35;
+}
+
+.introduction2{
+  grid-column: 2/12;
+  grid-row: 4/5;
+}
+
+/*1*/
+#first{
+  grid-column: 2/3;
+  grid-row: 6/7;
+}
+#firstbook{
+  grid-column: 5/11;
+grid-row: 6/7;
+}
+.firstbookp{
+  grid-column: 2/11;
+  grid-row: 7/9;
+}
+.ratingone{
+  grid-column: 2/8;
+  grid-row: 9/10;
+}
+.specs1{
+  grid-column: 6/12;
+  grid-row: 9/10;
+}
+
+
+/*2*/
+#second{
+  grid-column: 2/3;
+  grid-row: 11/12;
+}
+#secondbook{
+  grid-column: 5/11;
+grid-row: 11/12;
+}
+.secondbookp{
+  grid-column: 2/11;
+  grid-row: 12/14;
+}
+.ratingtwo{
+  grid-column: 2/8;
+  grid-row: 14/15;
+}
+.specs2{
+  grid-column: 6/12;
+  grid-row: 14/15;
+}
+
+/*3*/
+#third{
+  grid-column: 2/3;
+  grid-row: 16/17;
+}
+#thirdbook{
+  grid-column: 5/11;
+grid-row: 16/17;
+}
+.thirdbookp{
+  grid-column: 2/11;
+  grid-row: 17/19;
+}
+.ratingthree{
+  grid-column: 2/8;
+  grid-row: 19/20;
+}
+.specs3{
+  grid-column: 6/12;
+  grid-row: 19/20;
+}
+
+/*4*/
+#fourth{
+  grid-column: 2/3;
+  grid-row: 21/22;
+}
+#fourthbook{
+  grid-column: 5/11;
+grid-row: 21/22;
+}
+.fourthbookp{
+  grid-column: 2/11;
+  grid-row: 22/24;
+}
+.ratingfour{
+  grid-column: 2/8;
+  grid-row: 24/25;
+}
+.specs4{
+  grid-column: 6/12;
+  grid-row: 24/25;
+}
+
+/*5*/
+#fifth{
+  grid-column: 2/3;
+  grid-row: 26/27;
+}
+#fifthbook{
+  grid-column: 5/11;
+grid-row: 26/27;
+}
+.fifthbookp{
+  grid-column: 2/11;
+  grid-row: 27/29;
+}
+.ratingfive{
+  grid-column: 2/8;
+  grid-row: 29/30;
+}
+.specs5{
+  grid-column: 6/12;
+  grid-row: 29/30;
+}
+
+
+#otherreads2{
+  grid-column: 6/8;
+  grid-row:30/31;
+}
+
+.fantasy2{
+  grid-column: 2/12;
+  grid-row: 31/32;
+}
+
+.mystery2{
+  grid-column: 2/12;
+  grid-row: 32/33;
+}
+
+.romance2{
+  grid-column: 2/12;
+  grid-row: 33/34;
+}
+
+.classics2{
+  grid-column: 2/12;
+  grid-row: 34/35;
+}
+
+.footer3{
+  grid-column: 1/-1;
+  grid-row: 35/36;
+
+/*Tredje sidan content*/
+
+
+#blankpage3{
+  grid-column: 2/12;
+  grid-row: 3/30;
+}
+.footer2{
+  grid-column: 1/-1;
+  grid-row: 30/31;
+}
+
+
 
 }

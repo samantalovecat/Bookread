@@ -12,16 +12,19 @@
 .sliderp{
   width: 50%;
 }
-#introduction{
+#introduction , .introduction2{
   background-color:#dbc0a2;
   color: #2c1810;
   padding: 10%;
   font-size: 110%;
   font-family:  'Libre Baskerville', serif
 }
+.introduction2{
+    padding: 7%;
+      background-color: transparent;
+}
 .current{
   width: 100%;
-  box-shadow: 1em 1em rgb(32, 21, 0);
 }
 .currentback {
   background-color:#dbc0a2;
@@ -43,15 +46,46 @@ font-size: 300%;
 padding-left: 10%;
 }
 
-#monthsread1 , #monthsread2 , #monthsread3 {
+#monthsread1 , #monthsread2 , #monthsread3 , #monthsread4{
 margin-bottom: 10%;
 width: 85%;
 }
-
-#monthsread4{
-margin-bottom: 10%;
-width: 90%;
+.current:hover , #monthsread1:hover , #monthsread2:hover , #monthsread3:hover , #monthsread4:hover{
+  filter: drop-shadow(8px 8px 10px #4d3a2b);
 }
+
+/*IMAGE GALLERY*/
+.otherreads{
+  color: white;
+  font-size: 200%;
+    font-family: 'Volkhov', serif;
+}
+.othertitle{
+  font-size: 400%;
+  font-family: 'Volkhov', serif;
+  color: white;
+  z-index:1;
+}
+
+.smolimage{
+  width: 60%;
+}
+
+.smolimage2{
+  width: 70%;
+}
+
+
+.smolimage:hover{
+    filter: drop-shadow(8px 8px 10px #4d3a2b);
+}
+
+.bookpfont2{
+    font-family: 'Volkhov', serif;
+}
+
+
+
 
 
 
@@ -84,35 +118,15 @@ width: 90%;
     font-family: 'Libre Baskerville', serif;
 
 }
-
-
 *p  {
   color:#2c1810;
 }
-
-
-#welcomerubrik {
-  font-size: 4em;
-  color: white;
-  padding-left: 5%;
-  font-family: 'DM Serif Display', serif;
-}
-
 header {
   padding: -3%;
 }
-
-
-
-
-
-
-
 /*TOPPNAVET, home, etc.*/
 .topnav {
   overflow: hidden;
-
-
 }
 
 .topnav a {
@@ -126,8 +140,6 @@ header {
    background-color:#f9f2ec;
    transition: 0.3s;
 }
-
-
 
 /*OMBRE,en ombre effekt på toppnavet*/
 .topnav a.active {
@@ -162,9 +174,17 @@ header {
   top: 0;
 }
 
+#welcomerubrik {
+  font-size: 4em;
+  color: white;
+  padding-left: 5%;
+  font-family: 'DM Serif Display', serif;
+}
+
+
 /*Star rating färg*/
 .checked {
-  color: rgb(255, 219, 113);
+  color: rgb(254, 220, 131);
 }
 
 
@@ -207,7 +227,7 @@ header {
 
 
 /*Footer*/
-.footer {
+.footer , .footer2 , .footer3 {
   left: 0;
   bottom: 0;
   width: 100%;
@@ -269,7 +289,7 @@ body {
 /*HUVUDSIDAN SLUT*/
 
 /*ANDRASIDAN (samma som första fast med ändringar i content och stil)*/
-#blankpage2{
+#blankpage2 , #blankpage3{
   background-color: #dfc6aa;
     font-family: 'Lora', serif;
     font-size: 1.3em;
@@ -295,30 +315,87 @@ body {
 }
 
 /*content*/
+
 .number{
   font-family: 'Volkhov', serif;
   font-size: 400%;
-  padding-top: 200%;
+  padding-top: 220%;
 }
-#firstbook{
+.shadowbox{
   width: 100%;
   box-shadow: 1.5em 1.5em rgb(32, 21, 0);
 }
-.firstbookp{
-  font-family: 'Libre Baskerville', serif;
+
+.bookpfont{
+font-family: 'Averia Serif Libre', cursive;
+}
+
+.ratingsize{
+  font-size: 200%;
+}
+
+.ratingsize2{
+  font-size: 170%;
+}
+
+.author{
+  border-radius: 50%;
+  width:60%;
+}
+
+.paddingspecs{
+  padding-top: 10%;
+font-family: 'Averia Serif Libre', cursive;
+}
+
+.goodreads{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 140%;
+  color: rgb(42, 60, 96);
+  font-style: none;
+  text-decoration: none;
+}
+
+.goodreads:hover{
+  color: white;
+  font-decoration: none;
 }
 
 /*ANDRASIDAN SLUT*/
 
 
+/*TREDJESIDAN*/
+
+.pagetext3{
+  background-color: #b18f72;
+  opacity: 40%;
+  z-index: -1;
+    position:relative;
+      margin-bottom: -8%;
+}
+
+/*FONTS
+font-family: 'Averia Serif Libre', cursive;
+font-family: 'DM Serif Display', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Gravitas One', cursive;
+font-family: 'Homemade Apple', cursive;
+font-family: 'Kavivanar', cursive;
+font-family: 'Libre Barcode 39 Extended Text', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Shrikhand', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Ramaraja', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Volkhov', serif;  */
 
 
 
 
-
-
-
-/* DARK MODE*/
+/* DARK MODE */
 #darkmodebutton {
   background-color:#856c5b;
   color: white;
@@ -333,7 +410,38 @@ body {
 .dark-mode .pagetext{
   background-color: #170b01;
   color: white;
-
+}
+.dark-mode #introduction{
+  background-color: #170b01;
+  color: white;
+}
+.dark-mode .footer{
+  background-color: #170b01;
+}
+.dark-mode .footer3{
+  background-color: #170b01;
+}
+.dark-mode #curent{
+  color: white;
+}
+.dark-mode .bookpfont{
+  color: white;
+}
+.dark-mode .number{
+  color: white;
+}
+.dark-mode .introduction2{
+  color: white;
+}
+.dark-mode .paddingspecs{
+  color: white;
+}
+.dark-mode .goodreads {
+  color: rgb(58, 90, 201);
+}
+.dark-mode .currentback{
+  background-color: #170b01;
+  color: white;
 }
 .dark-mode .topnav *a{
   background-color: #201a19;
@@ -360,15 +468,15 @@ body {
 .dark-mode .topnav a:nth-child(5){
   background-color: black;
   color: white;
-
 }
-.dark-mode #blankpage {
+
+.dark-mode #blankpage2{
   background-color: #201a19;
   color: white;
 
 }
 
-.dark-mode #blankpage2{
+.dark-mode #blankpage3{
   background-color: #201a19;
   color: white;
 
@@ -378,11 +486,18 @@ body {
   color: white;
 
 }
+.dark-mode .pagetext3{
+  background-color: #201a19;
+  color: white;
+
+}
 
 .darkmode .active{
   background-color: #201a19;
   color: white;
 }
+
+
 
 .dark-mode #fonttest {
 
@@ -402,7 +517,6 @@ body {
    color: white;
  }
 
-/* end DARK MODE */
 
 .dark-mode .sidenav {
   background-color: rgb(136, 110, 83)black;
@@ -413,13 +527,13 @@ body {
 
 
 
+/*QUOTE THAT SLIDES*/
 .containerslider {
   position: relative;
   height: 120%;
   width: 300%;
   overflow: hidden;
 }
-
 .slides-wrapper {
    position: absolute;
    display: flex;
@@ -428,23 +542,17 @@ body {
    left: -200%;
    animation: slides 20s ease-out infinite;
 }
-
 .slides-wrapper:hover {
   animation-play-state: paused;
 }
-
 .text {
   display: grid;
   place-content: center;
 }
-
 .text p {
   margin: 5rem 7rem;
   padding: 2rem 0rem;
 }
-
-
-
 @keyframes slides {
   0% {
     left: 0%;
@@ -506,28 +614,6 @@ body {
   }
 }
 
-/*FONTS
-font-family: 'Averia Serif Libre', cursive;
-font-family: 'DM Serif Display', serif;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Gravitas One', cursive;
-font-family: 'Homemade Apple', cursive;
-font-family: 'Kavivanar', cursive;
-font-family: 'Libre Barcode 39 Extended Text', cursive;
-font-family: 'Nanum Pen Script', cursive;
-font-family: 'Shrikhand', cursive;
-font-family: 'EB Garamond', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Lora', serif;
-font-family: 'Playfair Display SC', serif;
-font-family: 'Ramaraja', serif;
-font-family: 'Libre Baskerville', serif;
-font-family: 'Volkhov', serif;  */
-
-
-
-
-
 /*MEDIA SCREEN*/
 @media screen and (max-width: 800px) {
 
@@ -556,7 +642,9 @@ font-family: 'Volkhov', serif;  */
   visibility: collapse;
 }
 
-.topnav a:nth-child(5) {
+
+
+.sidenav {
   visibility: collapse;
 }
 
@@ -566,6 +654,7 @@ font-family: 'Volkhov', serif;  */
   visibility: hidden;
   opacity:0%;
 }
+
 #introduction{
   font-size: 80%;
 }
@@ -576,17 +665,81 @@ font-family: 'Volkhov', serif;  */
   font-size: 100%;
 }
 #curent{
-font-size: 70%;
+font-weight: bold;
+}
+
+.starrating{
+  font-size: 150%;
+}
+
+#fantasy{
+  font-size: 200%;
+}
+
+.smolimage{
+  width:100%;
+}
+#mystery{
+  font-size: 200%;
+}
+
+#romance{
+  font-size: 200%;
+}
+
+#classic{
+  font-size: 200%;
 }
 
 /*Andra sidan content*/
 
 
-/*Tredje sidan content*/
+.introduction2{
+  font-size: 80%;
+  font-weight: bold;
+}
+
+/*1*/
+
+.ratingone{
+  font-size: 100%;
+}
+
+#authorone , #authortwo , #authorthree , #authorfour , #authorfive{
+  visibility: collapse;
+}
+
+/*2*/
+
+.ratingtwo{
+  font-size: 100%;
+}
+/*3*/
+.ratingthree{
+  font-size: 100%;
+}
+
+/*4*/
+
+.ratingfour{
+  font-size: 100%;
+}
+
+/*5*/
+
+.ratingfive{
+  font-size: 100%;
+}
+
+.smolimage2{
+  width: 100%;
+}
 
 
-/*Fjärde sidan content*/
-
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
 
 }
 /*MEDIA SCREEN SLUT*/

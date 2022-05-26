@@ -11,6 +11,7 @@
 
 
           <!--fonts-->
+          <link rel="stylesheet" href="https://use.typekit.net/rgu0myt.css">
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
           <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=DM+Serif+Display&family=Fredericka+the+Great&family=Gravitas+One&family=Homemade+Apple&family=Kavivanar&family=Libre+Barcode+39+Extended+Text&family=Nanum+Pen+Script&family=Shrikhand&display=swap" rel="stylesheet">
@@ -33,23 +34,24 @@
     background-color:#e8dac3;
     margin: 0;" > <!--Bakgrundsbild-->
 
-
-
 <div class="container">
   <div class="header">
-      <!--loggan-->
-      <a href="bookread.html" class="logo">📚Bookread</a>
+
+      <!--logo top right-->
+      <a href="index.html" class="logo">📚Bookread</a>
       <div class="header-right">
-        <!--sidnav ikon-->
+        <!--sidenav icon-->
         <a class="active" href="#home"><span style="font-size:300%;cursor:pointer" onclick="openNav()">&#9776;</span>
   </a>
       </div>
     </div>
+
+    <!--Welcome-->
   <h2 id="welcomerubrik">Welcome to Bookread!</h2>
 
 
 
-<!--citatsliden-->
+<!--sliding quote-->
 <div class="sliderp visibilitygone">
     <div class="containerslider">
       <div class="slides-wrapper">
@@ -68,53 +70,58 @@
 
 
       <!--sidnavigation med javascript-->
-      <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="index.html">Home</a>
-      <a href="bookread2.html">Reviews</a>
-      <a href="bookread3.html">Bookclub</a>
-    </div>
+  <div id="mySidenav" class="sidenav visibilitygone">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="bookread2.html">Books</a>
+        <a href="bookread3.html">Reviews</a>
+  </div>
 
 
     <!--toppnavigation-->
-    <div class="topnav , sticky">
+    <div class="topnav sticky">
       <a class="active" href="index.html">Home</a>
-      <a href="bookread2.html">Reviews</a>
-      <a href="bookread3.html">Bookclub</a>
+      <a href="bookread2.html">Books</a>
+      <a href="bookread3.html">Reviews</a>
 
          <button id="darkmodebutton" onclick="myFunction()"><i>Dark mode</i></button>
     </div>
 
-    <p class="pagetext"></p>
+    <!--filter över bakgrundsbild-->
+     <p class="pagetext"></p>
 
-    <p id="introduction"><i>You've come to a website dedicated to books and current media around them.<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!</i>😊</p>
 
-      <a href="bookread2.html#first" class="current">
-      <img src="img/addie.jpeg" class="current" alt="Book, my current read">
-      </a>
+  <!--THIS MONTHS READ-->
+  <p id="introduction"><i>You've come to a website dedicated to books and current media around them.<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!</i>😊</p>
 
-    <!--sidnavigation med javascript-->
-
+    <a href="bookread2.html#first" class="current">
+    <img src="img/addie.jpeg" class="current" alt="Book, my current read">
+    </a>
      <h2 class="currentitle">This months reads</h2>
-      <img src="img/girlbook4.png" id="girlbook" alt="Girl reading books" width="150%">
       <div class="currentback">
       </div>
-      <p id="curent"><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-      <div class="starrating"><span class="fa fa-star checked"></span>
+      <p id="curent"><br><br>France, 1714: in a moment of desperation, a young woman makes a Faustian bargain to live forever--and is cursed to be forgotten by everyone she meets. Thus begins the extraordinary life of Addie LaRue, and a dazzling adventure that will play out across centuries and continents, across history and art, as a young woman learns how far she will go to leave her mark on the world. But everything changes when, after nearly 300 years, Addie stumbles across a young man in a hidden bookstore and he remembers her name. </p>
+
+<div class="starrating">
+      <!--Rating stjärnor-->
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
-<span class="fa fa-star"></span></div>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+</div>
 
 
+
+<!--Resterande månadens böcker ruta-->
 <a href="bookread2.html#second" id="monthsread1">
- <img src="img/kraftor.jpeg" id="monthsread1" alt="Book of this month">
+<img src="img/kraftor.jpeg" id="monthsread1" alt="Book of this month">
 </a>
 <a href="bookread2.html#third" id="monthsread2">
  <img src="img/game.jpeg" id="monthsread2" alt="Book of this month">
 </a>
 <a href="bookread2.html#fourth" id="monthsread3">
- <img src="img/jojo.jpeg" id="monthsread3" alt="Book of this month">
+ <img src="img/small.jpg" id="monthsread3" alt="Book of this month">
 </a>
 <a href="bookread2.html#fifth" id="monthsread4">
  <img src="img/ahilles.jpeg" id="monthsread4" alt="Book of this month">
@@ -122,18 +129,62 @@
 
 
 
+<h3 class="otherreads">OTHER READS</h3>
 
 
+<h3 id="fantasy" class="othertitle">Fantasy/ Sci-Fi</h3>
+<table class="fantasy">
+  <tr>
+    <td>
+      <a href="bookread2.html#otherreads2"><img src="img/caraval.jpg" class="smolimage" alt="Book of this month"></a></td>
+      <td> <a href="bookread2.html#caraval"><img src="img/martian.jpg" class="smolimage" alt="Book of this month"></a></td>
+        <td>  <a href="bookread2.html#martian"><img src="img/harry.jpg" class="smolimage" alt="Book of this month"></a></td>
+          <td>  <a href="bookread2.html#harry"><img src="img/dune.jpg" class="smolimage" alt="Book of this month"></a></td>
+            <td> <a href="bookread2.html#dune"><img src="img/nitton.jpg" class="smolimage" alt="Book of this month"></a></td>
 
+  </tr>
+</table>
 
+<h3 id="mystery" class="othertitle">Mystery/drama</h3>
+<table class="mystery">
+  <tr>
+    <td>
+      <a href="bookread2.html#nitton"><img src="img/sherlock.jpg" class="smolimage" alt="Book of this month"></a></td>
+      <td> <a href="bookread2.html#sherlock"><img src="img/silent.jpg" class="smolimage" alt="Book of this month"></a></td>
+        <td> <a href="bookread2.html#silent"><img src="img/ljus.jpg" class="smolimage" alt="Book of this month"></a></td>
+          <td> <a href="bookread2.html#ljus"><img src="img/little.jpg" class="smolimage" alt="Book of this month"></a></td>
+            <td> <a href="bookread2.html#gone"><img src="img/gone.jpg" class="smolimage" alt="Book of this month"></a></td>
 
+  </tr>
+</table>
 
+<h3 id="romance" class="othertitle">Romance</h3>
+<table class="romance">
+  <tr>
+    <td> <a href="bookread2.html#gone"><img src="img/john.jpg" class="smolimage" alt="Book of this month"></a></td>
+      <td> <a href="bookread2.html#john"><img src="img/ends.jpg" class="smolimage" alt="Book of this month"></a></td>
+        <td> <a href="bookread2.html#ends"><img src="img/inget.jpg" class="smolimage" alt="Book of this month"></a></td>
+          <td> <a href="bookread2.html#inget"><img src="img/six.jpg" class="smolimage" alt="Book of this month"></a></td>
+            <td> <a href="bookread2.html#six"><img src="img/call.jpg" class="smolimage" alt="Book of this month"></a></td>
 
+  </tr>
+</table>
+
+<h3 id="classic" class="othertitle">Classics</h3>
+<table class="classic">
+  <tr>
+    <td> <a href="bookread2.html#call"><img src="img/jane.jpg" class="smolimage" alt="Book of this month"></a></td>
+      <td> <a href="bookread2.html#jane"><img src="img/charlotte.jpg" class="smolimage" alt="Book of this month"></a></td>
+        <td> <a href="bookread2.html#charlotte"><img src="img/gatsby.jpg" class="smolimage" alt="Book of this month"></a></td>
+          <td> <a href="bookread2.html#gatsby"><img src="img/moby.jpg" class="smolimage" alt="Book of this month"></a></td>
+            <td> <a href="bookread2.html#moby"><img src="img/tour.jpg" class="smolimage" alt="Book of this month"></a></td>
+
+  </tr>
+</table>
 
 
 
       <div class="footer">
-        <p>Footer</p>
 </div>
 </div>
   </body>
