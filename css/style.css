@@ -399,10 +399,11 @@ font-family: 'Volkhov', serif;  */
 #darkmodebutton {
   background-color:#856c5b;
   color: white;
-  opacity: 50%;
+  opacity: 70%;
   font-family: 'Libre Baskerville', serif;
   border-style: none;
   style: none;
+  font-size: 1.2em;
 }
 #darkmodebutton:hover{
   background-color:rgb(0, 0, 0);
