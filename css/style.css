@@ -46,7 +46,7 @@ font-size: 300%;
 padding-left: 10%;
 }
 
-#monthsread1 , #monthsread2 , #monthsread3 , #monthsread4{
+#monthsread1a , #monthsread2a , #monthsread3a , #monthsread4a{
 margin-bottom: 10%;
 width: 85%;
 }
@@ -108,7 +108,7 @@ width: 85%;
 
 
 /*Vita bakrunden till huvudsidan*/
-#bookquote{
+.bookquote{
    color: rgb(247, 239, 230);
    text-align: inherit;
      opacity: 80%;
