@@ -352,6 +352,7 @@ font-family: 'Averia Serif Libre', cursive;
 .goodreads{
   font-family: 'Fredericka the Great', cursive;
   font-size: 140%;
+  margin-top: 7%;
   color: rgb(0, 62, 185);
 }
 
@@ -417,6 +418,7 @@ font-family: 'Averia Serif Libre', cursive;
 }
 .dark-mode .goodreads {
   color: rgb(143, 168, 255);
+
 }
 .dark-mode .currentback{
   background-color: #170b01;
@@ -587,6 +589,21 @@ font-family: 'Averia Serif Libre', cursive;
 
   93% {
     left: 0.45rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .visibilitygone{
+    visibility: collapse;
+  }
+  #curent{
+    margin-right: 10%;
+  }
+  .shadowbox{
+    width:45%;
+  }
+  #otherreads2{
+    margin-top: 100%;
+      margin-bottom: 100%;
   }
 }
 
