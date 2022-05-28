@@ -605,6 +605,11 @@ font-family: 'Averia Serif Libre', cursive;
     margin-top: 100%;
       margin-bottom: 100%;
   }
+
+  .author{
+    visibility: collapse;
+  }
+
 }
 
 /*MEDIA SCREEN*/
