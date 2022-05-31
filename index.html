@@ -22,16 +22,7 @@
           <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Volkhov:ital,wght@1,700&display=swap" rel="stylesheet">
 <script src="js/interest.js"></script>  <!--Javascript-->
     </head>
-
-    <!--För någon anledning reagerar bakgrunden bara på det här sättet, genom att style internt. men det funkar-->
-    <body class="body1"
-    style="background-image: url('./img/bokies.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-color:#e8dac3;
-    margin: 0;" > <!--Bakgrundsbild-->
+<body>
 
 <div class="container">
   <div class="header">
@@ -40,7 +31,7 @@
       <a href="index.html" class="logo">📚Bookread</a>
       <div class="header-right">
         <!--sidenav icon-->
-        <a class="active visibilitygone"  href="#home"><span class="visibilitygone" style="font-size:300%;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <a class="active visibilitygone"  href="#home"><span class="spanone" onclick="openNav()">&#9776;</span>
   </a>
       </div>
     </div>
@@ -69,7 +60,7 @@
 
 
       <!--sidnavigation med javascript-->
-  <div id="mySidenav" class="sidenav visibilitygone">
+  <div id="mySidenav" class="sidenav , visibilitygone">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="index.html">Home</a>
         <a href="bookread2.html">Books</a>
@@ -185,9 +176,7 @@
       <div class="footer">
         <p>
     <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img style="border:0;width:88px;height:31px"
-            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
-            alt="Valid CSS!" />
+        <img class="csscheck" src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" />
     </a>
 </p>
 <h1 id="h1">Bookread</h1>

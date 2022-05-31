@@ -7,7 +7,9 @@
 
 
 /*HUVUDCONTENT första sida*/
-
+body{
+background-color:#c6a581;
+}
 
 .sliderp{
   width: 50%;
@@ -87,26 +89,6 @@ width: 85%;
 
 
 
-
-
-
-/*Filter över bakgrundsbilden*/
-.pagetext{
-  background-color: #dea980;
-  opacity: 50%;
-  z-index: -1;
-    position:relative;
-      margin-bottom: -8%;
-}
-
-
-
-
-
-
-
-
-
 /*Vita bakrunden till huvudsidan*/
 .bookquote{
    color: rgb(247, 239, 230);
@@ -126,6 +108,8 @@ width: 85%;
 .topnav {
   overflow: hidden;
 }
+
+
 
 .topnav a {
   float: left;
@@ -285,7 +269,16 @@ body {
 
 
 
+.csscheck{
+  border:0;
+  width:88px;
+  height:31px;
+}
 
+.spanone{
+  font-size:300%;
+  cursor:pointer;
+}
 
 /*HUVUDSIDAN SLUT*/
 
@@ -307,13 +300,6 @@ body {
     font-size: 4em;
 }
 
-.pagetext2{
-  background-color: #b18f72;
-  opacity: 40%;
-  z-index: -1;
-    position:relative;
-      margin-bottom: -8%;
-}
 
 /*content*/
 
@@ -365,14 +351,6 @@ font-family: 'Averia Serif Libre', cursive;
 
 /*TREDJESIDAN*/
 
-.pagetext3{
-  background-color: #b18f72;
-  opacity: 40%;
-  z-index: -1;
-    position:relative;
-      margin-bottom: -8%;
-}
-
 
 
 
@@ -387,10 +365,7 @@ font-family: 'Averia Serif Libre', cursive;
 #darkmodebutton:hover{
   background-color:rgb(0, 0, 0);
 }
-.dark-mode .pagetext{
-  background-color: #170b01;
-  color: white;
-}
+
 .dark-mode #introduction{
   background-color: #170b01;
   color: white;
@@ -465,14 +440,24 @@ font-family: 'Averia Serif Libre', cursive;
 .dark-mode .pagetext2{
   background-color: #201a19;
   color: white;
+  opacity:30%;
+  z-index: -1;
 
 }
+
 .dark-mode .pagetext3{
   background-color: #201a19;
   color: white;
+  opacity:30%;
+  z-index: -1;
+}
+.dark-mode .pagetext{
+  background-color: #201a19;
+  color: white;
+  opacity:30%;
+  z-index: -1;
 
 }
-
 .darkmode .active{
   background-color: #201a19;
   color: white;
@@ -592,9 +577,7 @@ font-family: 'Averia Serif Libre', cursive;
   }
 }
 @media screen and (max-width: 1200px) {
-  .visibilitygone{
-    visibility: collapse;
-  }
+
   #curent{
     margin-right: 10%;
   }
